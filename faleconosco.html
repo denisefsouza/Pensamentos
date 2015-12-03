@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///home/aluno/Downloads/formulario%20(2).html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css" >
+  </head>
+  <body>
+    <body background="_imagens/fundo.jpg">
+      <div id="interface">
+    <h1>Fale Conosco!</h1>
+    <form>
+      <fieldset>
+        <legend>Dados do Usuário</legend>
+        <p>
+          Nome
+          <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo">
+        </p>
+        <p>
+          Senha
+          <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos">
+        </p>
+        <fieldset>
+          <legend>Sexo</legend>
+          <p>
+            <input type="radio" name="tSexo" id="cMasc">
+            <label for="cMasc">Masculino</label>
+          </p>
+          <p>
+            <input type="radio" name="tSexo" id="cFem">
+            <label for="cFem">Feminino</label>
+          </p>
+        </fieldset>
+        <p>e-mail
+          <input type="email" name="tEmail" id="cEmail" size="20" maxlength="20" placeholder="seu e-mail">
+        </p>
+        <p>Data Nascimento
+          <input type="date" name="tDataNasc" id="cDataNasc">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+
+        <p>
+          Logradouro
+          <input type="text" name="tLogradouro" id="cLogradouro" size="30" maxlength="50" placeholder="Rua, Av, Travessa, ...">
+
+        </p>
+        Número
+        <input type="number" name="tNum" id="cNum" size="5" min="1" max="99999">
+      <p></p>
+      <p>
+        Estado
+        <select name="tEstado" id="cEstado">
+          <option selected="">...</option>
+          <optgroup label="Sudeste">
+            <option value="MG">Minas Gerais</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+          </optgroup>
+          <optgroup label="Sul">
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Parana</option>
+          </optgroup>
+        </select>
+
+      </p>
+
+      <p>
+        Cidade
+        <input type="text" name="tCidade" id="cCidade" size="20" maxlength="40" placeholder="Digite sua cidade" list="Cidades">
+
+        <datalist id="Cidades">
+          <option value="Janaúba"></option>
+          <option value="Porteirinha"></option>
+          <option value="Mato Verde"></option>
+          <option value="Nova Porteirinha"></option>
+          <option value="Montes Claros"></option>
+        <datalist>
+      </datalist></datalist></p>
+
+
+
+      </fieldset>
+
+
+    </form>
+
+
+</body></html>
+<nav id="menu" >
+  <h2>Menu Principal</h2>
+      <ul>
+
+        <li><a href="paginainicial.html">Pagina Inicial</a></li>
+        <li><a href="amizade.html">Amizade</a></li>
+        <li><a href="vida.html">Vida</a></li>
+        <li><a href="felicidade.html">Felicidade</a></li>
+        <li><a href="amor.html">Amor</a></li>
+        <li><a href="faleconosco.html">Fale conosco</a></li>
+      </ul>
+</nav>
